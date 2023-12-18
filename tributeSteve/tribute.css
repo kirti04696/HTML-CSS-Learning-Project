@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.main{
+    display: flex;
+}
+.phrase{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.phrase p{
+    font-size: 45px;
+    text-align: center;
+}
+.biography{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 25px;
+    
+}
+.biography h1{
+    font-size: 40px;
+}
+.biography p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+hr{
+    color: white;
+}
