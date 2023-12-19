@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-image: url('nature\ -\ Copy-1278x600.jpg');
+    min-height: 600px;
+    
+}
+.navbar{
+
+height: 60px;
+padding: 0px 10px;
+/* background-color: #010912; */
+background-color: rgba(1,9,18,0.5);
+display: flex;
+justify-content: space-between;
+color: white;
+align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+}
+.hero-sec{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 40px;
+    align-items: center;
+    min-height: 400px;
+}
+.hero-sec h1{
+    font-size: 45px;
+    
+}
+.development{
+    color: chocolate;
+}
+input{
+    height: 20px;
+}
+.form-sec{
+border: 1px solid red;
+width: 30%;
+background-color: black;
+color: white;
+padding: 5%;
+}
+.form-sec h2{
+    background-color: white;
+    color: chocolate;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-sec input{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 1px solid chocolate;
+    margin-bottom: 20px;
+}
+.quote-sec{
+    width: 55%;
+    padding: 20px;
+}
+button{
+    padding: 5px 30px;
+    background-color: chocolate;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+p{
+    font-size: 18px;
+}
